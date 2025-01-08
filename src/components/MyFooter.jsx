@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap"
 
 const MyFooter = function(){
     return(
-    <Container fluid>
-        <Row className=" bg-dark text-white-50 mt-4 pt-4 pb-4">
+    <Container fluid className=" mt-5">
+        <Row className=" bg-dark text-white-50 pt-4 pb-4">
             <Col className="lh-1">
             <h4>CHI SIAMO</h4>
             <p>Azienda</p>

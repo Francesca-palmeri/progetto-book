@@ -6,12 +6,12 @@ import '../assets/css/AllTheBooks.css'
 class AllTheBooks extends Component {
   render() {
     return (
-      <Container fluid={true} className=" bg-body-secondary " >
+      <Container >
         <Row className=" justify-content-center">
           {fantasyBooks.map((book) => {
             return (
-              <Col className="spazioCard" sm={12} md={6} lg={4} xl={2} key={book.asin} >
-                <Card className="Cards border border-black" >
+              <Col className="g-4" sm={12} md={6} lg={4} xl={3} key={book.asin} >
+                <Card className="Cards border border-black " style={{height: "100%"}} >
                   <Card.Img variant="top" src={book.img} style={{ width: "100%" }} />
                   <Card.Body>
                     <Card.Title>{book.title}</Card.Title>

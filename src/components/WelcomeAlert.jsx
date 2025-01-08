@@ -4,7 +4,7 @@ function WelcomeAlert() {
      return (
       <>
         <Alert variant="success" className="mb-0 pb-3">
-          <Alert.Heading >BENVENUTO!</Alert.Heading>
+          <Alert.Heading >BENVENUTO su Bookshop.it!</Alert.Heading>
         </Alert>       
       </>
     );
