@@ -1,4 +1,20 @@
-Card{
-    width: 300px, 
-    height 100%,
+.Cards{
+    width: 100%;
+    height: 100%;
+    opacity: 0.92;
+}
+
+.Cards:hover{
+    opacity: 1;
+
+}
+
+.spazioCard{
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .Cards{
+        width: 100%;
+    }
 }

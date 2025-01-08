@@ -10,8 +10,8 @@ class AllTheBooks extends Component {
         <Row>
           {fantasyBooks.map((book) => {
             return (
-              <Col sm={12} md={6} lg={4} xl={3} key={book.asin} >
-                <Card className="border border-black" >
+              <Col className="g-3" sm={12} md={6} lg={4} xl={3} key={book.asin} >
+                <Card className="Cards border border-black" >
                   <Card.Img variant="top" src={book.img} style={{ width: "100%" }} />
                   <Card.Body>
                     <Card.Title>{book.title}</Card.Title>
